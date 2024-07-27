@@ -6,7 +6,7 @@
 /*   By: hosokawa <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/17 11:12:56 by hosokawa          #+#    #+#             */
-/*   Updated: 2024/07/27 16:23:17 by dhosokaw         ###   ########.fr       */
+/*   Updated: 2024/07/27 16:37:35 by hosokawa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,6 @@ int	fdf_close_mouse_hook(t_fdf *fdf)
 
 void	fdf_hook(t_fdf *fdf)
 {
-	mlx_hook(fdf->win, 2, 1L<<0, fdf_close_key_hook, fdf);
+	mlx_hook(fdf->win, 2, 1L << 0, fdf_close_key_hook, fdf);
 	mlx_hook(fdf->win, 17, 1L << 17, fdf_close_mouse_hook, fdf);
 }

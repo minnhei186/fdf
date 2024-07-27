@@ -6,7 +6,7 @@
 /*   By: dhosokaw <dhosokaw@student.42tokyo.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 14:58:56 by dhosokaw          #+#    #+#             */
-/*   Updated: 2024/07/27 15:50:38 by dhosokaw         ###   ########.fr       */
+/*   Updated: 2024/07/27 16:38:42 by hosokawa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,10 @@
 
 # include <ctype.h>
 # include <limits.h>
+# include <stddef.h>
+# include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
-#include <stddef.h>
-#include <stdint.h>
-
 
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);

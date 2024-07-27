@@ -6,7 +6,7 @@
 /*   By: dhosokaw <dhosokaw@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 11:23:24 by dhosokaw          #+#    #+#             */
-/*   Updated: 2024/07/27 15:56:46 by dhosokaw         ###   ########.fr       */
+/*   Updated: 2024/07/27 16:38:48 by hosokawa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,12 @@
 # endif
 
 # include <fcntl.h>
+# include <stdint.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
 # include <sys/select.h>
 # include <unistd.h>
-#include <stdint.h>
 
 char	*get_next_line(int fd);
 
