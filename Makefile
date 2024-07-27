@@ -6,14 +6,14 @@
 #    By: dhosokaw <dhosokaw@student.42tokyo.>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/03 13:49:56 by dhosokaw          #+#    #+#              #
-#    Updated: 2024/07/27 13:19:31 by hosokawa         ###   ########.fr        #
+#    Updated: 2024/07/27 16:04:10 by dhosokaw         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC=cc 
 CFLAGS=-Wall -Wextra -Werror
 INCDIR=-Iinclude
-FRAMEWORKS = -framework OpenGL -framework AppKit
+FRAMEWORKS = -lX11 -lXext -lm -lbsd
 
 LIBFTDIR=libft
 LIBMINIDIR=minilibx

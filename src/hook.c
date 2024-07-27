@@ -6,7 +6,7 @@
 /*   By: hosokawa <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/17 11:12:56 by hosokawa          #+#    #+#             */
-/*   Updated: 2024/07/26 16:33:00 by hosokawa         ###   ########.fr       */
+/*   Updated: 2024/07/27 16:23:17 by dhosokaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	fdf_close_key_hook(int keycode, t_fdf *fdf)
 {
-	if (keycode == 53)
+	if (keycode == KEY_ESC)
 	{
 		if (fdf->map)
 			fdf_t_map_free(fdf);
@@ -47,6 +47,6 @@ int	fdf_close_mouse_hook(t_fdf *fdf)
 
 void	fdf_hook(t_fdf *fdf)
 {
-	mlx_hook(fdf->win, 2, 0, fdf_close_key_hook, fdf);
+	mlx_hook(fdf->win, 2, 1L<<0, fdf_close_key_hook, fdf);
 	mlx_hook(fdf->win, 17, 1L << 17, fdf_close_mouse_hook, fdf);
 }

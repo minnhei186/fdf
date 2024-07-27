@@ -6,7 +6,7 @@
 /*   By: dhosokaw <dhosokaw@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/23 14:31:33 by dhosokaw          #+#    #+#             */
-/*   Updated: 2024/06/03 12:57:34 by dhosokaw         ###   ########.fr       */
+/*   Updated: 2024/07/27 15:54:53 by dhosokaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# include <stdint.h>
 
 void	ft_pf_putchar(char c);
 void	ft_pf_putstr(char *str);

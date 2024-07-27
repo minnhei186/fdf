@@ -6,7 +6,7 @@
 /*   By: hosokawa <hosokawa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 14:52:19 by hosokawa          #+#    #+#             */
-/*   Updated: 2024/07/27 13:52:53 by hosokawa         ###   ########.fr       */
+/*   Updated: 2024/07/27 16:20:49 by dhosokaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,11 @@
 # include <string.h>
 # include <unistd.h>
 
-# define WIDTH 1000
-# define HEIGHT 700
+# define WIDTH 1920
+# define HEIGHT 1080
 
 # define ZOOM_WHEIGHT 10
+#define KEY_ESC  65307
 
 typedef struct s_color
 {
